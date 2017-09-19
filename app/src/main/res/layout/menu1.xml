@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CalendarView
+                android:id="@+id/calview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></CalendarView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter details:"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/bsm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Blood Sugar in Morning" />
+
+            <Button
+                android:id="@+id/submitm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit morning" />
+
+
+            <EditText
+                android:id="@+id/bse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Blood Sugar in Evening" />
+
+            <Button
+                android:id="@+id/submite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit evening" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
