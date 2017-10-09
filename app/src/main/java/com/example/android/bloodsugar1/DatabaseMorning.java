@@ -16,7 +16,6 @@ import java.util.Locale;
 /**
  * Created by Nishita Aggarwal on 22-07-2017.
  *
- *
  */
 
 public class DatabaseMorning extends SQLiteOpenHelper {
