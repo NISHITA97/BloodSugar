@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Shiv Kumar Aggarwal on 22-07-2017.
+ * Created by Nishita Aggarwal on 22-07-2017.
  */
 
 public class DatabaseEvening extends SQLiteOpenHelper {
