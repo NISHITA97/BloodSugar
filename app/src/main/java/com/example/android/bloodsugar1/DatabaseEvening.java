@@ -77,7 +77,7 @@ public class DatabaseEvening extends SQLiteOpenHelper {
                 d.level=Integer.parseInt(cursor.getString(0));
                 d.date=cursor.getString(1);
                 Log.e("d.date=",d.date);
-                // Adding contact to list
+                // Adding data to list
                 dataList.add(d);
                 Log.e("d.level",String.valueOf(d.level));
                 Log.e("in getAllcont",dataList.toString());
